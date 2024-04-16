@@ -6,6 +6,13 @@ go run main.go
 
 copy below sample data into the terminal then press `ctrl + d` to get the output.
 
+or you can just
+
+```bash
+go build -o out
+cat data.txt | ./out
+```
+
 ## How to run the tests
 
 ```bash

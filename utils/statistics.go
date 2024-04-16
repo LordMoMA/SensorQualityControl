@@ -19,3 +19,4 @@ func StdDev(values []float64, mean float64) float64 {
 	}
 	return math.Sqrt(sqDiffSum / float64(len(values)))
 }
+
