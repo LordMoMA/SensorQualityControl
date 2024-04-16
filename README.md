@@ -18,6 +18,10 @@ cat data.txt | ./out
 ```bash
 go test -v ./... | sed ''/PASS/s//$(printf "\033[32mPASS\033[0m")/'' | sed ''/FAIL/s//$(printf "\033[31mFAIL\033[0m")/'' | grep '^--- '
 ```
+## Use math to solve mean and standard deviation
+
+[Mean and Standard Deviation](https://math.stackexchange.com/questions/36956/calculating-mean-and-standard-deviation-of-very-large-sample-sizes/37011#37011
+)
 
 ## Instructions:
 
